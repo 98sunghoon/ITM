@@ -12,7 +12,7 @@ public class SplashActivity extends Activity {
         }catch(InterruptedException e){
             e.printStackTrace();
         }
-        startActivity(new Intent(this,TabbedActivity.class));
+        startActivity(new Intent(this,MainActivity.class));
         finish();
     }
 }
